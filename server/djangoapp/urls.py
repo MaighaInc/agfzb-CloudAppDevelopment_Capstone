@@ -23,6 +23,10 @@ urlpatterns = [
     path('static-template/', views.static_template_view, name='static_template'),
     path('about/', views.about_view, name='about'),
     path('contact/', views.contact_view, name='contact'),
+    path('login/', views.login_request, name="login"),
+    path('logout/', views.logout_request, name="logout"),
+    path('registration/', views.registration_request, name="registration")
+
 
     # path for dealer reviews view
 
